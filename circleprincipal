@@ -1,0 +1,23 @@
+public class circleprincipal {
+
+	public static void main(String[] args) {
+		
+		circle C1= new circle();
+		
+		System.out.println("El circulo tiene un radio de: "
+		  +C1.getRadio() + " , un area de " + C1.getArea()
+		  + " y su color es: " + C1.getcolor());
+		
+		circle C2=new circle(2,"rojo");
+		
+		System.out.println("El circulo tiene un radio de: "
+				+ C2.getRadio() + " , un area de: " + C2.getArea()
+				+ " y su color es: " + C2.getcolor());
+		 
+		circle C3=new circle(1,"rojo");
+		System.out.println("El circulo tine un radio de: "
+				+ C3.getRadio() + " , un area de: " + C3.getArea()
+				+ " y su color es: " + C3.getcolor());
+	}
+
+}
