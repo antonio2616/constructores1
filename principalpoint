@@ -1,0 +1,21 @@
+public class principalpoint {
+	public static void main(String[] args) {
+		point p1 = new point();
+		System.out.println(p1.mensaje()+ " x= "
+				+p1.getX()+", y= "+p1.getY());
+		p1.Distancia(6,9);
+		double Distancia = p1.Distancia(6,9);
+		System.out.println("La distancia del origen al punto uno es de: "+Distancia);
+		
+		point p2 = new point(12,8);
+		System.out.println(p2.mensaje()+" x= "
+				+p2.getX()+", y= "+p2.getY());
+		p2.Distancia(12,8);
+		double Distancia1 = p2.Distancia(12,8);
+		System.out.println("La distancia del origen al punto uno es de: "+Distancia1);
+		
+
+	}
+
+	
+}
