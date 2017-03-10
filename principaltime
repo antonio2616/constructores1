@@ -1,0 +1,15 @@
+public class principaltime {
+
+	public static void main(String[] args) {
+		
+		time Time=new time();
+		Time.setHoras(00);
+		Time.setMinutos(01);
+		Time.setSegundos(01);
+		System.out.println(Time);
+		
+		time Time1=new time(00,02,02);
+		System.out.println(Time1);
+	}
+
+}
