@@ -1,0 +1,18 @@
+public class principaldatos {
+
+	public static void main(String[] args) {
+		 
+		datos D1=new datos();
+	
+		D1.setAños(2017);
+		D1.setDia(10);
+		D1.setMes(03);
+		
+		System.out.println(D1.getAño());
+		System.out.println(D1.getDia());
+		System.out.println(D1.getMes());
+		
+		
+	}
+
+}
