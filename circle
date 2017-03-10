@@ -1,0 +1,26 @@
+public class circle {
+	private double radio;
+	private String color;
+	
+ public circle(){
+	radio=2.0;
+	color="azul";
+ }
+ public circle(double r, String c){
+   this.radio=r;
+   this.color=c;
+ }
+
+ public double getRadio(){
+	return radio;
+
+ }
+
+ public double getArea(){
+	return ((radio*radio)*Math.PI);
+
+ }
+ public String getcolor(){
+	 return color;
+ }
+}
