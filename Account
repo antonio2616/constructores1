@@ -1,0 +1,33 @@
+public class Account {
+
+	private int accountNumber;
+	private double balance;
+	
+ public Account(){
+	 accountNumber=2345612;
+	 balance=254.80;
+ }
+ public Account(int aN){
+ 	this.accountNumber=aN;
+ 
+ }
+ 
+ public  int getaccountNumber(){
+	 return accountNumber;
+	 
+ }
+ public double getbalance(){
+	 return balance;
+	 
+}
+public void setBalance(double balance) {
+	this.balance = balance;
+
+ }
+public void credito(double monto){
+	monto=0.0;
+ }
+public void debito(double Monto){
+	Monto=0.0;
+ }
+}
