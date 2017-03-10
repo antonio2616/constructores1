@@ -1,0 +1,21 @@
+public class principalAccount {
+
+	public static void main(String[] args) {
+		
+		Account A1=new Account();
+		
+		
+		System.out.println("Su numero de cuenta es : " + A1.getaccountNumber()
+				  + " su estado de cuenta es de  " +"$"+A1.getbalance());
+
+		
+		Account A2=new Account(23456);
+		
+		A2.setBalance(3456);
+		
+		System.out.println("Su numero de cuenta es "+ A2.getaccountNumber()
+		+ " su estado de cuenta es "+"$"+ A2.getbalance());
+		
+	}
+
+}
